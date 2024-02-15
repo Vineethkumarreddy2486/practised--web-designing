@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>challenge exercise</title>
+        <style>
+            .first-block,.second-block{
+                height: 25px;
+                padding-left: 10px;
+                margin-bottom: 15px;
+                border: 1px solid rgb(134, 130, 130);
+                border-radius: 5px;
+            }
+            .email-box{
+                width: 340px;
+                height: 30px;
+                border: 1px solid rgb(134, 130, 130);
+                border-radius: 5px;
+                padding-left: 10px;
+                display: block;
+                margin-bottom: 15px;
+            }
+            .signup-button{
+                width: 352px;
+                height: 40px;
+                font-size: 18px;
+                color: white;
+                background-color: rgb(49, 49, 232);
+                border: none;
+                font-weight: bold;
+                border-radius: 5px;
+            }
+            .signup-button:hover{
+                cursor: pointer;
+                opacity: 0.9;
+                transition: opacity 0.2s;
+                
+            }
+            .signup-button:active{
+                opacity: 0.5;
+            }
+            .uber-title{
+                font-family: Arial;
+                margin-top: 50px;
+                margin-bottom: 0px;
+                font-size: 35px;
+            }
+            .pickup-box,.destination-box{
+                font-family: Arial;
+                display: block;
+                width: 330px;
+                background-color: rgb(216, 212, 212);
+                border: none;
+                height: 30px;
+                padding-left: 15px;
+            }
+            .pickup-box{
+                margin-top: 20px;
+                margin-bottom: 10px;
+
+            }
+            .destination-box{
+                margin-bottom: 30px;
+            }
+            .request-button,.schedule-button{
+                height: 30px;
+                border: none;
+                padding: 10px 15px 10px 15px;
+            }
+            .request-button{
+                color: black;
+                background-color: rgb(216, 212, 212);
+                margin-right: 5px;
+                width: 130px;
+            }
+            .request-button:hover{
+                background-color: black;
+                color: white;
+                cursor: pointer;
+                transition: background-color 0.5s;
+                
+            }
+            .schedule-button{
+                width: 180px;
+                background-color: rgb(216, 212, 212);
+            }
+        </style>
+    </head>
+    <body>
+        <input class="first-block" type="text" placeholder="First name">
+        <input class="second-block" type="text" placeholder="Last name">
+        <input class="email-box" type="text" placeholder="Email">
+        <button class="signup-button">Sign Up</button> 
+        <p class="uber-title">Request a ride now</p>
+        <input class="pickup-box" type="text" placeholder="Enter pickup location">
+        <input class="destination-box" type="text" placeholder="Enter destination">
+        <button class="request-button">Request now</button>
+        <button class="schedule-button">Schedule for later</button>
+    </body>
+</html>
